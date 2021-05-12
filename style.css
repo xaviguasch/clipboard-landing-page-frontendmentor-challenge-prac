@@ -120,7 +120,7 @@ img {
   border: transparent;
 
   border-bottom: 3px solid var(--clr-strong-cyan-darker);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 10px,
     var(--clr-strong-cyan) 0px 0px 0px 1px;
   font-family: inherit;
   font-size: var(--fs-18);
@@ -133,12 +133,14 @@ img {
 .btn:active {
   background-color: var(--clr-strong-cyan-lighter);
   border-bottom: 3px solid var(--clr-strong-cyan);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 10px,
+    var(--clr-strong-cyan) 0px 0px 0px 1px;
 }
 
 .btn--alt {
   background-color: var(--clr-light-blue);
   border-bottom: 3px solid var(--clr-light-blue-darker);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, var(--clr-light-blue) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 36px 0px, var(--clr-light-blue) 0px 0px 0px 1px;
 }
 
 .btn--alt:hover,
