@@ -346,6 +346,8 @@ body {
   html,
   body {
     background: url('./images/bg-header-desktop.png') no-repeat;
+    background-position: top center;
+    background-size: contain;
   }
 
   .wrapper {
