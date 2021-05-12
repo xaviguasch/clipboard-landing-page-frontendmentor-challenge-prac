@@ -337,3 +337,169 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* MEDIA QUERIES */
+@media (min-width: 1001px) {
+  /* ================== */
+  /* Utility styles */
+  /* ================== */
+  html,
+  body {
+    background: url('./images/bg-header-desktop.png') no-repeat;
+  }
+
+  .wrapper {
+    min-width: unset;
+    max-width: 900px;
+  }
+
+  /* ================== */
+  /* Typography */
+  /* ================== */
+  .copy__title {
+    font-size: var(--fs-48);
+  }
+
+  .copy__text {
+    font-size: var(--fs-20);
+  }
+
+  .feature-a__title {
+    font-size: var(--fs-36);
+  }
+
+  .feature-a__text {
+    font-size: var(--fs-18);
+  }
+
+  .btn--alt {
+    margin-top: unset;
+  }
+
+  .feature-b__copy-item .feature-b__text {
+    font-size: var(--fs-16);
+  }
+
+  /* ================== */
+  /* SECTIONS */
+  /* ================== */
+
+  .header .copy__text {
+    width: 85%;
+    margin: 1.5em auto 0;
+  }
+
+  .copy__buttons {
+    margin: 2.5em auto 0;
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .feature-a {
+    width: 85%;
+    margin: 10em auto 0;
+  }
+
+  .feature-b {
+    margin-top: 6em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-b__copy {
+    margin-top: unset;
+    padding-left: 7em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .feature-b__copy-item {
+    text-align: left;
+  }
+
+  .feature-b__text {
+    width: 100%;
+    margin: 1em 0 0;
+  }
+
+  .feature-b__image__img {
+    transform: scale(1.8) translate(-22%, 10%);
+  }
+
+  .margin-helper {
+    margin-top: 13em;
+  }
+
+  .feature-b__copy--alt {
+    margin-top: 0;
+    margin: 0 -7em 0;
+
+    flex-direction: row;
+    gap: 2em;
+    align-items: baseline;
+  }
+
+  .feature-b__copy--alt .feature-b__copy-item {
+    margin-top: 0em;
+    text-align: center;
+    width: 33%;
+  }
+
+  .feature-b__copy--alt .feature-b__copy-item .feature-b__title {
+    margin-top: 2em;
+  }
+
+  .brands {
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 7em -5.5em 0;
+  }
+
+  .logo--footer {
+    width: 3em;
+    text-align: left;
+    margin: 0;
+  }
+
+  .main-footer-grid {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 2fr;
+  }
+
+  .page-info-links ul {
+    margin-top: unset;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1em;
+  }
+
+  .page-info-links ul li {
+    margin-top: unset;
+    text-align: left;
+  }
+
+  .socials {
+    margin-top: 1.25em;
+  }
+
+  .socials ul {
+    justify-content: flex-end;
+    gap: 2em;
+  }
+
+  .footer__signature {
+    margin-top: 3em;
+  }
+}
